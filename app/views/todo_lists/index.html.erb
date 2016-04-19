@@ -6,5 +6,7 @@
 <% end %>
 
 <div class="links">
-  <%= link_to "New Todo List", new_todo_list_path %>
+  <div id="todoL">
+    <%= link_to 'toDo <i class= "fa fa-plus-circle fa-lg" data-toggle="tooltip" data-placement="top" title="New"></i>'.html_safe, new_todo_list_path %>
+  </div>
 </div>

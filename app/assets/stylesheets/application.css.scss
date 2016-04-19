@@ -25,12 +25,9 @@ html {
 }
 
 body {
- 	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  height: 100%;
+  background: #eee;
+
   font-family: 'Lato', sans-serif;
 }
 
@@ -67,14 +64,14 @@ body {
 	font-weight: 700;
 	font-size: 2.5rem;
 	text-transform: uppercase;
-	color: white;
+	color: teal;
 	margin: 0;
 	a {
 		text-decoration: none;
-		color: white;
+		color: teal;
 		transition: all .4s ease-in-out;
 		&:hover {
-			opacity: 0.4;
+			opacity: 0.6;
 		}
 	}
 }
@@ -125,10 +122,10 @@ body {
 			padding: 1em 0;
 		}
 		i {
-			color: white;
+			color: teal;
 			transition: all .4s ease-in-out;
 			&:hover {
-				color: $dark;
+				opacity: 0.6;
 			}
 		}
 	}
@@ -169,10 +166,22 @@ body {
 	margin: 1.5em auto 0 auto;
 	text-align: center;
 	font-size: 0.8em;
-	color: white;
+	color: teal;
 	a {
-		color: white;
+		color: teal;
+        transition: all .4s ease-in-out;
+        &:hover {
+          opacity: 0.6;
+        }
+        text-decoration: none;
 	}
+    #todoL {
+        font-size: 1.8em;
+    }
+}
+
+span.navigationSpace {
+  padding-left: 50px;
 }
 
 .forms {
