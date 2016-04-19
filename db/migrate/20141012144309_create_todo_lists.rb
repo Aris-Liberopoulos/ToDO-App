@@ -8,3 +8,5 @@ class CreateTodoLists < ActiveRecord::Migration
     end
   end
 end
+
+
